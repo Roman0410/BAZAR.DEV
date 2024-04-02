@@ -1689,7 +1689,6 @@ main {
   .text {
   }
 }
-
 .service-advsntages {
   .container {
   }
@@ -1750,7 +1749,6 @@ main {
     }
   }
 }
-
 .portfolio {
   background: #1f1f20;
   .container {
@@ -2000,6 +1998,9 @@ main {
           .icon {
             transform: translateY(-20px);
           }
+          .text_24 {
+            color: var(--accent-color);
+          }
         }
       }
     }
@@ -2017,6 +2018,7 @@ main {
       }
     }
     .text_16 {
+      text-transform: uppercase;
     }
     .text_24 {
       color: #fff;

@@ -107,10 +107,15 @@
       font-style: normal;
       font-weight: 400;
       line-height: 19px; /* 135.714% */
+      transition: all 0.1s linear;
       &:not(:last-child) {
         border-bottom: 1px solid #484848;
       }
       span {
+        color: var(--accent-color);
+      }
+      &:hover {
+        gap: 10px;
         color: var(--accent-color);
       }
     }
